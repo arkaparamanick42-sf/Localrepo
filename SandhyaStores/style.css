@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(204, 204, 237);
+    position: fixed;
+}
+
+#logo {
+    height: 95%;
+    width: 10%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.title:hover {
+    color: blue;
+}
+
+#contact {
+    padding:10px;
+    border-radius: 8px;
+}
+
+#contact:hover{
+    #heading {
+        color: blue;
+    }
+}
+
+.icon {
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: rgb(226, 240, 226);
+}
+
+#login{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#login:hover{
+    background-color: rgb(226, 240, 226);
+}
+
+#try{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(126, 243, 8);
+}
+
+#fakeheader{
+    height: 15%;
+    width: 100;
+}
+
+#page1{
+    height: 85%;
+    width: 100%;
+
+    background-image: url("Photos/Sandhya\ Stores\ Grocery\ Hero\ Banner.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#upper{
+    height:10%;
+    width: 100%;
+}
+
+
+#box{
+    height:80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left{
+    height:100%;
+    width: 50%;
+}
+
+#p1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        text-shadow: 10px 10px 10px whitesmoke;
+        color: rgb(41, 63, 18);
+        padding: 20px;
+        font-size: 90px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+#p2{
+    height: 40%;
+    width: 100%;    
+}
+
+#btns{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#btn1{
+    background-color: whitesmoke;
+    color: blue;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 0.1px solid blue;
+}
+
+#btn1:hover{
+    background-color: rgb(204, 243, 243);
+}
+
+#btn2{
+     background-color: whitesmoke;
+    color: blue;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 0.1px solid blue;
+}
+
+#btn2:hover{
+    background-color: rgb(204, 243, 243);
+}
+
+#right{
+    height:100%;
+    width: 50%;
+
+    img{
+        padding: 5px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+#lower{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    h1{
+        color: rgb(6, 6, 67);
+    }
+}
+
+#page2{
+    height: 85%;
+    width: 100%;
+
+    background-image: url("Photos/Sandhya\ Stores\ Grocery\ Hero\ Banner.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
